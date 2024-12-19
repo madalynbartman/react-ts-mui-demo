@@ -7,7 +7,14 @@ const App: React.FC = () => { // Annotating the functional component with React.
   return (
     <div className="App">
       <header className="App-header"> {/* Closing the header tag properly */}
-        <Button variant="contained" color="primary">
+        <Button /*href="#"*/ /*onClick={()=>alert('hello')}*/ 
+        /*size="small"*//*large"*/
+        /*disabled*/
+        /*style={{
+          fontSize: 14
+        }}*/
+        variant="contained" 
+        /*color="primary"*/>
           Hello World {/* Button component with text content */}
         </Button>
       </header>
